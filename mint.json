@@ -38,7 +38,14 @@
       "url": "https://artofdatascience.substack.com/"
     }
   ],
-  "navigation": [],
+  "navigation": [
+    {
+      "group": "Home",
+      "pages": [
+        "home"
+      ]
+    }
+  ],
   "feedback": {
     "thumbsRating": true,
     "suggestEdit": true,
