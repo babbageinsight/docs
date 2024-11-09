@@ -1,0 +1,12 @@
+"name": "Babbage Insight"
+"logo": {
+  "light": "/logo/light.svg",
+  "dark": "/logo/dark.svg",
+  "href": "https://www.babbageinsight.com/"
+},
+"favicon": "/favicon.svg",
+"colors": {
+  "primary": "#FF0000",
+  "light": "#FFFFFF",
+  "dark": "#000000",
+},
