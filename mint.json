@@ -15,7 +15,7 @@
   "colors": {
     "primary": "#FF0000",
     "light": "#FFFFFF",
-    "dark": "#000000",
+    "dark": "#000000"
   },
   "topbarLinks": [
     {
@@ -39,8 +39,8 @@
     }
   ],
   "feedback": {
-    "thumbsRating":true,
-    "suggestEdit":true,
+    "thumbsRating": true,
+    "suggestEdit": true,
     "raiseIssue": true
   },
   "footerSocials": {
