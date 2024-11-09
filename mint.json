@@ -1,12 +1,52 @@
-"name": "Babbage Insight"
-"logo": {
-  "light": "/logo/light.svg",
-  "dark": "/logo/dark.svg",
-  "href": "https://www.babbageinsight.com/"
-},
-"favicon": "/favicon.svg",
-"colors": {
-  "primary": "#FF0000",
-  "light": "#FFFFFF",
-  "dark": "#000000",
-},
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Babbage Insight",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg",
+    "href": "https://www.babbageinsight.com/"
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "theme": "quill",
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#FF0000",
+    "light": "#FFFFFF",
+    "dark": "#000000",
+  },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://www.babbageinsight.com/"
+    },
+    {
+      "name": "Support",
+      "url": "mailto:team@babbageinsight.com"
+    }
+  ],
+  "topbarCtaButton": {
+      "name": "Dashboard",
+      "url": "https://dash.babba.ge/"
+  },
+  "anchors": [
+    {
+      "name": "Blog",
+      "icon": "newspaper",
+      "url": "https://artofdatascience.substack.com/"
+    }
+  ],
+  "feedback": {
+    "thumbsRating":true,
+    "suggestEdit":true,
+    "raiseIssue": true
+  },
+  "footerSocials": {
+    "linkedin": "https://www.linkedin.com/company/babbageinsight/",
+    "twitter": "https://twitter.com/babbageinsight/",
+    "website": "https://www.babbageinsight.com/",
+    "github": "https://github.com/babbageinsight"
+  }
+}
