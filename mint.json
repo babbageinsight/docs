@@ -29,7 +29,7 @@
   ],
   "topbarCtaButton": {
       "name": "Dashboard",
-      "url": "https://dash.babba.ge/"
+      "url": "https://app.babba.ge/"
   },
   "anchors": [
     {
@@ -42,7 +42,7 @@
     {
       "group": "Home", 
       "pages": [
-        "welcome"
+        "home"
       ]
     },
     {
@@ -54,13 +54,13 @@
     }
   ],
   "feedback": {
-    "thumbsRating": true,
+    //"thumbsRating": true,
     "suggestEdit": true,
     "raiseIssue": true
   },
   "footerSocials": {
     "linkedin": "https://www.linkedin.com/company/babbageinsight/",
-    "twitter": "https://twitter.com/babbageinsight/",
+    "twitter": "https://x.com/babbageinsight",
     "website": "https://www.babbageinsight.com/",
     "github": "https://github.com/babbageinsight"
   }
