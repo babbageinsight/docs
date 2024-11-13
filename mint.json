@@ -42,7 +42,7 @@
     {
       "group": "Home", 
       "pages": [
-        "home"
+        "welcome"
       ]
     },
     {
@@ -54,7 +54,6 @@
     }
   ],
   "feedback": {
-    //"thumbsRating": true,
     "suggestEdit": true,
     "raiseIssue": true
   },
