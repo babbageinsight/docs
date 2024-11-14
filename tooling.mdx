@@ -2,6 +2,8 @@
 title: Tooling
 ---
 
-| **Service**      | **Tool**                                                                            | **Purpose**              | **Explanation**                                                                                                                                     |
-|:----------------:|:----------------------------------------------------------------------------------:|:------------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Analytics        | [motherduck](https://www.motherduck.com/) (DuckDB in the cloud)                    | analytical work (OLAP)   | Babbage Insight uses motherduck. Motherduck hosts its data on Amazon Web Services instance *us-east-1*                                               |
+| **Service**      | **Tool**                                                                            | **Purpose**                                               | **Location**                  |
+|:----------------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------:|-------------------------------|
+| Analytics        | [motherduck](https://www.motherduck.com/) (DuckDB in the cloud)                    | Analytical work (OLAP)                                    | *us-east-1* (AWS)             |
+| Compute          | Linux instance                                | CPU-intensive computations. Backend orchestration.        | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/))             |
+| Database         | PostgreSQL                                                  | Relational database to store generated insights for APIs and the frontend. | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/))              |
