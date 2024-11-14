@@ -42,7 +42,8 @@
     {
       "group": "Home", 
       "pages": [
-        "welcome"
+        "welcome",
+        "tooling"
       ]
     },
     {
