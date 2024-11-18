@@ -1,10 +1,20 @@
 ---
-title: Tooling
+title: Tooling for Babbage Insight
+shortTitle: Tooling
+description: Tooling for Babbage Insight Dashboard
 ---
 
-| **Service** | **Tool**                                                                            | **Purpose**                                               | **Location**                  |
-|:-----------:|:----------------------------------------------------------------------------------:|:---------------------------------------------------------:|-------------------------------|
-| Analytics   | [motherduck](https://www.motherduck.com/) (DuckDB in the cloud)                    | Analytical work (OLAP).                                    | *us-east-1* (AWS, owner=motherduck)            |
-| Compute     | Linux instance                                                                     | CPU-intensive computations. Backend orchestration.        | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/), owner=Babbage Insight)             |
-| Database    | PostgreSQL                                                       | Relational database to store generated insights for APIs and the frontend. | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/), owner=Babbage Insight)             |
-| LLM         | OpenAI                                                  | LM for prompting and fine-tuning. Currently, Babbage Insight only supports OpenAI. |              |
+## Primary Tooling
+| **Service**               | **Tool**                                                        | **Purpose**                                                                        | **Location**                                                                            |
+| :------------------------ | :-------------------------------------------------------------- | :--------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Analytics                 | [motherduck](https://www.motherduck.com/) (DuckDB in the cloud) | Analytical work (OLAP).                                                            | *us-east-1* (AWS, owner=motherduck)                                                     |
+| Compute                   | Linux instance                                                  | CPU-intensive computations. Backend orchestration.                                 | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/), owner=Babbage Insight) |
+| Database                  | PostgreSQL                                                      | Relational database to store generated insights for APIs and the frontend.         | *us-east-2* ([AWS Lightsail](https://aws.amazon.com/lightsail/), owner=Babbage Insight) |
+| LLM                       | OpenAI                                                          | LM for prompting and fine-tuning. Currently, Babbage Insight only supports OpenAI. |     |
+| User & Project Management | [Clerk](https://www.clerk.com/)                                 | Maintain users and projects.                                                       |     |
+
+## Support Tooling
+| **Service** | **Tool**                          | **Purpose**            |
+| :---------- | :-------------------------------- | :--------------------- |
+| Hosting     | [Vercel](https://www.vercel.com/) | Dashboard and website. |
+| Hosting     | [Carrd](https://www.carrd.co/)    | Website.               |
