@@ -43,54 +43,7 @@
       "pages": [
         "welcome"
       ]
-    },
-    /*
-    {
-      "group": "Authentication", 
-      "pages": [
-        "auth/sign-up",
-        "auth/sign-in",
-        "auth/sign-out"
-      ]
-    },
-    {
-      "group": "User Dashboard", 
-      "pages": [
-        "user/profile",
-        "user/projects",
-        "user/metrics",
-        "user/insights"
-      ]
-    },
-    {
-      "group": "Administration", 
-      "pages": [
-        "admin/users",
-        "admin/sources",
-        "admin/metrics",
-        "admin/llms"
-      ]
-    },
-    {
-      "group": "Technical", 
-      "pages": [
-        "tooling"
-      ]
-    },
-    {
-      "group": "Roadmap", 
-      "pages": [
-        "upcoming"
-      ]
-    },
-    {
-      "group": "Company", 
-      "pages": [
-        "company/terms-of-service",
-        "company/privacy-policy"
-      ]
     }
-      */
   ],
   "feedback": {
     "suggestEdit": true,
