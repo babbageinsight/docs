@@ -1,0 +1,103 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Babbage Insight",
+  "logo": {
+    "light": "/assets/logo/light.svg",
+    "dark": "/assets/logo/dark.svg",
+    "href": "https://www.babbageinsight.com/"
+  },
+  "modeToggle": {
+    "default": "light",
+    "isHidden": true
+  },
+  "theme": "quill",
+  "favicon": "/assets/favicon.svg",
+  "colors": {
+    "primary": "#FF0000",
+    "light": "#FFFFFF",
+    "dark": "#000000"
+  },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://www.babbageinsight.com/"
+    },
+    {
+      "name": "Blog",
+      "url": "https://artofdatascience.substack.com/"
+   }
+  ],
+  "topbarCtaButton": {
+      "name": "Dashboard",
+      "url": "https://app.babba.ge/"
+  },
+  "anchors": [
+    {
+      "name": "Support",
+      "url": "mailto:team@babbageinsight.com"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Home", 
+      "pages": [
+        "welcome"
+      ]
+    },
+    {
+      "group": "Authentication", 
+      "pages": [
+        "auth/sign-up",
+        "auth/sign-in",
+        "auth/sign-out"
+      ]
+    },
+    {
+      "group": "User Dashboard", 
+      "pages": [
+        "user/profile",
+        "user/projects",
+        "user/metrics",
+        "user/insights"
+      ]
+    },
+    {
+      "group": "Administration", 
+      "pages": [
+        "admin/users",
+        "admin/sources",
+        "admin/metrics",
+        "admin/llms"
+      ]
+    },
+    {
+      "group": "Technical", 
+      "pages": [
+        "tooling"
+      ]
+    },
+    {
+      "group": "Roadmap", 
+      "pages": [
+        "upcoming"
+      ]
+    },
+    {
+      "group": "Company", 
+      "pages": [
+        "company/terms-of-service",
+        "company/privacy-policy"
+      ]
+    }
+  ],
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true
+  },
+  "footerSocials": {
+    "linkedin": "https://www.linkedin.com/company/babbageinsight/",
+    "twitter": "https://x.com/babbageinsight",
+    "website": "https://www.babbageinsight.com/",
+    "github": "https://github.com/babbageinsight"
+  }
+}
