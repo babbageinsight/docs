@@ -24,7 +24,6 @@
     },
     {
       "name": "Blog",
-      "icon": "newspaper",
       "url": "https://artofdatascience.substack.com/"
    }
   ],
@@ -34,12 +33,8 @@
   },
   "anchors": [
     {
-
-
-      {
-        "name": "Support",
-        "url": "mailto:team@babbageinsight.com"
-      }
+      "name": "Support",
+      "url": "mailto:team@babbageinsight.com"
     }
   ],
   "navigation": [
