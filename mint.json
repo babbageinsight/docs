@@ -44,6 +44,7 @@
         "welcome"
       ]
     },
+    /*
     {
       "group": "Authentication", 
       "pages": [
@@ -89,6 +90,7 @@
         "company/privacy-policy"
       ]
     }
+      */
   ],
   "feedback": {
     "suggestEdit": true,
