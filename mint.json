@@ -56,6 +56,7 @@
     {
       "group": "User Dashboard", 
       "pages": [
+        "user/profile",
         "user/projects",
         "user/metrics",
         "user/insights"
