@@ -49,13 +49,14 @@
       "pages": [
         "auth/sign-up",
         "auth/sign-in",
-        "auth/sign-out"
+        "auth/sign-out",
+        "user/profile"
       ]
     },
     {
       "group": "User Dashboard", 
       "pages": [
-        "user/project",
+        "user/projects",
         "user/metrics",
         "user/insights"
       ]
