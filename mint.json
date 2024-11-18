@@ -49,8 +49,7 @@
       "pages": [
         "auth/sign-up",
         "auth/sign-in",
-        "auth/sign-out",
-        "user/profile"
+        "auth/sign-out"
       ]
     },
     {
