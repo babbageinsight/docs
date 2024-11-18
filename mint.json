@@ -42,15 +42,44 @@
     {
       "group": "Home", 
       "pages": [
-        "welcome",
-        "tooling"
+        "welcome"
+      ]
+    },
+    {
+      "group": "Authentication", 
+      "pages": [
+        "auth/sign-up",
+        "auth/sign-in",
+        "auth/sign-out"
       ]
     },
     {
       "group": "Dashboard", 
       "pages": [
-        "dashboard/user-guide",
-        "dashboard/admin-guide"
+        "user/project",
+        "user/metrics",
+        "user/insights"
+      ]
+    },
+    {
+      "group": "Administration", 
+      "pages": [
+        "admin/users",
+        "admin/sources",
+        "admin/metrics",
+        "admin/llms"
+      ]
+    },
+    {
+      "group": "Technical", 
+      "pages": [
+        "tooling"
+      ]
+    },
+    {
+      "group": "Roadmap", 
+      "pages": [
+        "upcoming"
       ]
     },
     {
