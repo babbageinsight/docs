@@ -1,3 +1,63 @@
 ---
 title: Data Sources
 ---
+
+# Sources Supported
+
+Babbage Insight currently supports the following Data Sources:
+* Amazon S3
+* Amplitude
+* Databricks
+* Facebook Ads
+* Google Ads
+* Google Analytics 4
+* Google Sheets
+* Hubspot
+* Intercom
+* Mixpanel
+* MongoDB
+* MySQL
+* Oracle
+* Pagerduty
+* PostgreSQL
+* Salesforce
+* Segment
+* Shopify
+* Snowflake
+* Splunk
+* SQL Server
+
+Babbage Insight uses "Powered by Fivetran" Connect Cards to have the
+administrator enter the source data's connectivity details. **User Credentials are NOT stored on Babbage Insight's servers.** 
+
+*Babbage Insight currently supports only 1 data source per Project.*
+
+# Safe Zone
+
+1. Visit the Data Source Administration page.
+<img src="assets/dashboard/source-admin.png"/>
+
+## Add a Source
+1. Select your Data Source, and hit Submit.
+<img src="assets/dashboard/source-select.png"/>
+2. A new fivetran.com tab appears. Follow the instructions to enter your
+   credentials and activate your connection.
+<img src="assets/dashboard/fivetran-connect.png"/>
+
+## Update a Source
+1. If you have already connected a Data Source, hit "Update". (Otherwise, you
+   would have to add a Data Source by following the instructions above.)
+<img src="assets/dashboard/update-source.png""/>
+2. A new fivetran.com tab appears. Follow the instructions to enter your
+   credentials and activate your connection.
+<img src="assets/dashboard/fivetran-connect.png""/>
+
+
+# DANGER ZONE
+## Delete a Source
+1. Go to the Danger Zone at the bottom of the page. If you have already
+   connected a Data Source, hit "Delete". The connection is unlinked.
+<img src="assets/dashboard/delete-source.png""/>
+*You have the ability to roll this back within 30 days of deletion. To do so,
+contact us.*
+

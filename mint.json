@@ -23,9 +23,9 @@
       "url": "https://www.babbageinsight.com/"
     },
     {
-      "name": "Support",
-      "url": "mailto:team@babbageinsight.com"
-    }
+      "name": "Blog",
+      "url": "https://artofdatascience.substack.com/"
+   }
   ],
   "topbarCtaButton": {
       "name": "Dashboard",
@@ -33,9 +33,8 @@
   },
   "anchors": [
     {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://artofdatascience.substack.com/"
+      "name": "Support",
+      "url": "mailto:team@babbageinsight.com"
     }
   ],
   "navigation": [
@@ -54,9 +53,10 @@
       ]
     },
     {
-      "group": "Dashboard", 
+      "group": "User Dashboard", 
       "pages": [
-        "user/project",
+        "user/profile",
+        "user/projects",
         "user/metrics",
         "user/insights"
       ]
