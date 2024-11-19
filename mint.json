@@ -43,7 +43,8 @@
       "group": "Home", 
       "icon": "house",
       "pages": [
-        "welcome"
+        "welcome",
+        "dashboard"
       ]
     },
     {
