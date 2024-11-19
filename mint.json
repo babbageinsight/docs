@@ -20,23 +20,24 @@
   "topbarLinks": [
     {
       "name": "Website",
-      "icon": "fa-house",
+      "icon": "house",
       "url": "https://www.babbageinsight.com/"
     },
     {
       "name": "Blog",
-      "icon": "fa-blog",
+      "icon": "blog",
       "url": "https://artofdatascience.substack.com/"
    }
   ],
   "topbarCtaButton": {
       "name": "Dashboard",
+      "name": "chart-simple",
       "url": "https://app.babba.ge/"
   },
   "anchors": [
     {
       "name": "Support",
-      "icon": "fa-envelope",
+      "icon": "envelope",
       "url": "mailto:team@babbageinsight.com"
     }
   ],
