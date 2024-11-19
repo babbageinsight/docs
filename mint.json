@@ -20,18 +20,15 @@
   "topbarLinks": [
     {
       "name": "Website",
-      "icon": "globe",
       "url": "https://www.babbageinsight.com/"
     },
     {
       "name": "Blog",
-      "icon": "blog",
       "url": "https://artofdatascience.substack.com/"
    }
   ],
   "topbarCtaButton": {
       "name": "Dashboard",
-      "name": "chart-simple",
       "url": "https://app.babba.ge/"
   },
   "anchors": [
@@ -61,6 +58,7 @@
     },
     {
       "group": "User Dashboard", 
+      "icon": "chart-simple",
       "pages": [
         "user/projects",
         "user/metrics",
@@ -69,6 +67,7 @@
     },
     {
       "group": "Administration", 
+      "icon": "globe",
       "pages": [
         "admin/users",
         "admin/sources",
