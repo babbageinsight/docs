@@ -20,7 +20,7 @@
   "topbarLinks": [
     {
       "name": "Website",
-      "icon": "house",
+      "icon": "globe",
       "url": "https://www.babbageinsight.com/"
     },
     {
@@ -44,12 +44,14 @@
   "navigation": [
     {
       "group": "Home", 
+      "icon": "house",
       "pages": [
         "welcome"
       ]
     },
     {
       "group": "Authentication", 
+      "icon": "right-to-bracket",
       "pages": [
         "auth/sign-up",
         "auth/sign-in",
