@@ -77,18 +77,21 @@
     },
     {
       "group": "Technical", 
+      "icon": "flask",
       "pages": [
         "tooling"
       ]
     },
     {
       "group": "Roadmap", 
+      "icon": "road",
       "pages": [
         "upcoming"
       ]
     },
     {
       "group": "Company", 
+      "icon": "building",
       "pages": [
         "company/terms-of-service",
         "company/privacy-policy"
