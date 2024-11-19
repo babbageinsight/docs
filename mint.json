@@ -20,10 +20,12 @@
   "topbarLinks": [
     {
       "name": "Website",
+      "icon": "fa-house",
       "url": "https://www.babbageinsight.com/"
     },
     {
       "name": "Blog",
+      "icon": "fa-blog",
       "url": "https://artofdatascience.substack.com/"
    }
   ],
@@ -34,6 +36,7 @@
   "anchors": [
     {
       "name": "Support",
+      "icon": "fa-envelope",
       "url": "mailto:team@babbageinsight.com"
     }
   ],
@@ -49,13 +52,13 @@
       "pages": [
         "auth/sign-up",
         "auth/sign-in",
-        "auth/sign-out"
+        "auth/sign-out",
+        "user/profile"
       ]
     },
     {
       "group": "User Dashboard", 
       "pages": [
-        "user/profile",
         "user/projects",
         "user/metrics",
         "user/insights"
