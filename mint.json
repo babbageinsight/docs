@@ -19,8 +19,12 @@
   },
   "topbarLinks": [
     {
+      "name": "Website",
+      "url": "https://www.babbageinsight.com/"
+   },
+   {
       "name": "Blog",
-      "url": "https://artofdatascience.substack.com/"
+      "url": "https://babbageinsight.substack.com/"
    }
   ],
   "topbarCtaButton": {
