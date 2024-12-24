@@ -94,6 +94,7 @@
       "group": "Company", 
       "icon": "building",
       "pages": [
+        "company/service-policy",
         "company/terms-of-service",
         "company/privacy-policy"
       ]
