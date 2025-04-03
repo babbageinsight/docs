@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Babbage Insight",
   "logo": {
-    "light": "/assets/logo/light.svg",
-    "dark": "/assets/logo/dark.svg",
+    "light": "/assets/logo/light.png",
+    "dark": "/assets/logo/dark.png",
     "href": "https://www.babbageinsight.com/"
   },
   "modeToggle": {
@@ -11,11 +11,11 @@
     "isHidden": true
   },
   "theme": "quill",
-  "favicon": "/assets/favicon.svg",
+  "favicon": "/assets/favicon.png",
   "colors": {
-    "primary": "#FF0000",
-    "light": "#FFFFFF",
-    "dark": "#000000"
+    "primary": "#FFA200",
+    "light": "#FFFFFD",
+    "dark": "#14130A"
   },
   "topbarLinks": [
     {
@@ -29,7 +29,7 @@
   ],
   "topbarCtaButton": {
       "name": "Dashboard",
-      "url": "https://dashboard.babba.ge/"
+      "url": "https://www.babba.ge/"
   },
   "anchors": [
     {
@@ -106,7 +106,6 @@
   },
   "footerSocials": {
     "linkedin": "https://www.linkedin.com/company/babbageinsight/",
-    "twitter": "https://x.com/babbageinsight",
     "website": "https://www.babbageinsight.com/",
     "github": "https://github.com/babbageinsight"
   }
